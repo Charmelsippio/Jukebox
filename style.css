@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#wrapper{
+	width:100%;
+	/*border: 1px solid #ccc;*/
+	position: absolute;
+	z-index: -1;
+}
+
+img{
+	/*border: 1px solid #ccc;*/
+	display:block;
+    margin:auto;
+}
+
+
+#song_info{
+	/*background-color: #ccc;*/
+	width: 50%;
+	margin-top:25%;
+	height: 200px;
+	margin-left: 50%;
+	position: absolute;
+	z-index: 1;
+}
+
+
+#title{
+	text-transform: uppercase;
+	font-size: 40pt;
+}
+
+#author{
+	color: #ccc;
+	font-size: 18pt;
+	margin-left: 3%;
+}
+
+
+ul{
+	border-top: 1.8px solid #000;
+	width: 150px;
+	height: 50px;
+	list-style-type: none;
+	float: right;
+	margin-top: 46%;
+	padding-right: 5%;
+}
+
+
+li{
+	/*border-top: 1px solid #ccc;*/
+	width: 28%;
+	float: left;
+	margin-right: 4%;
+}
+
+
+
+
+#pause_icon{
+	display: none;
+}
+.button{
+	opacity: 0.5;
+	width: 100%;
+}
+
+.button:hover{
+	opacity: 2;
+	width: 100%;
+}
+
+
