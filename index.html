@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8">
 	<title>JukeBox</title>
 </head>
 <body>
 	<div id="wrapper">
-		<img src="images/circle.svg">
+		<img src="images/circle.svg" class="hvr-pulse-grow">
 	</div>
 
-	<div id="song_info">
-		<span id="title">TITLE SONG</span>
+	<div id="current_song">
+		<span id="title">jukebox</span>
 		<br>
-		<span id="author">Artist Name</span>
+		<span id="artist">on play</span>
 	</div>
+
 
 
 	<audio></audio>
@@ -31,6 +32,6 @@
 
 		
 </body>
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 </html>
